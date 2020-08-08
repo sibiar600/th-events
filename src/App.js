@@ -9,7 +9,6 @@ function App() {
   return (
     <div>
       <Header />
-      <EventsList />
       <EventsList02 />
 
     </div >

@@ -49,7 +49,7 @@ const EventsList = () => {
                                     <div className='font-bold text-sm text-gray-800 font-serif text-center'>8 May</div>
                                 </div>
 
-                                <div className='mb-6 mt-6  font-light text-justify text-sm h-32'>An evening event in which candle-lit lanterns are floated down the Sumida River. Toro nagashi is a tradition in which lanterns lit with candles are set afloat on rivers to guide the spirits of the ancestors back to the other side during the O-bon holiday.</div>
+                                <div className='mb-6 mt-6  font-light text-justify text-sm md:h-48 sm:h-24'>An evening event in which candle-lit lanterns are floated down the Sumida River. Toro nagashi is a tradition in which lanterns lit with candles are set afloat on rivers to guide the spirits of the ancestors back to the other side during the O-bon holiday.</div>
 
                                 <ul className='md:mt-10 sm:mt-0'>
                                     <li className='text-sm'>08:00 - 17:00</li>
@@ -105,7 +105,7 @@ const EventsList = () => {
                                     <div className='font-bold text-sm text-gray-800 font-serif text-center'>8 May</div>
                                 </div>
 
-                                <div className='mb-6 mt-6  font-light text-justify text-sm h-32'>An evening event in which candle-lit lanterns are floated down the Sumida River. Toro nagashi is a tradition in which lanterns lit with candles are set afloat on rivers to guide the spirits of the ancestors back to the other side during the O-bon holiday.</div>
+                                <div className='mb-6 mt-6  font-light text-justify text-sm md:h-48 sm:h-24'>An evening event in which candle-lit lanterns are floated down the Sumida River. Toro nagashi is a tradition in which lanterns lit with candles are set afloat on rivers to guide the spirits of the ancestors back to the other side during the O-bon holiday.</div>
 
                                 <ul className='md:mt-10 sm:mt-0'>
                                     <li className='text-sm'>08:00 - 17:00</li>
@@ -161,7 +161,7 @@ const EventsList = () => {
                                     <div className='font-bold text-sm text-gray-800 font-serif text-center'>8 May</div>
                                 </div>
 
-                                <div className='mb-6 mt-6  font-light text-justify text-sm h-32'>An evening event in which candle-lit lanterns are floated down the Sumida River. Toro nagashi is a tradition in which lanterns lit with candles are set afloat on rivers to guide the spirits of the ancestors back to the other side during the O-bon holiday.</div>
+                                <div className='mb-6 mt-6  font-light text-justify text-sm md:h-48 sm:h-24'>An evening event in which candle-lit lanterns are floated down the Sumida River. Toro nagashi is a tradition in which lanterns lit with candles are set afloat on rivers to guide the spirits of the ancestors back to the other side during the O-bon holiday.</div>
 
                                 <ul className='md:mt-10 sm:mt-0'>
                                     <li className='text-sm'>08:00 - 17:00</li>
@@ -217,7 +217,7 @@ const EventsList = () => {
                                     <div className='font-bold text-sm text-gray-800 font-serif text-center'>8 May</div>
                                 </div>
 
-                                <div className='mb-6 mt-6  font-light text-justify text-sm h-32'>An evening event in which candle-lit lanterns are floated down the Sumida River. Toro nagashi is a tradition in which lanterns lit with candles are set afloat on rivers to guide the spirits of the ancestors back to the other side during the O-bon holiday.</div>
+                                <div className='mb-6 mt-6  font-light text-justify text-sm md:h-48 sm:h-24'>An evening event in which candle-lit lanterns are floated down the Sumida River. Toro nagashi is a tradition in which lanterns lit with candles are set afloat on rivers to guide the spirits of the ancestors back to the other side during the O-bon holiday.</div>
 
                                 <ul className='md:mt-10 sm:mt-0'>
                                     <li className='text-sm'>08:00 - 17:00</li>

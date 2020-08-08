@@ -8,7 +8,7 @@ const Card = (props) => {
 
     return (
         <div>
-            <div className='card mb-4 bg-gray-100 rounded-lg hover:rounded-lg hover:shadow-2xl hover:bg-white p-4'>
+            <div className='card mb-4 bg-gray-100 rounded-lg hover:rounded-lg hover:shadow-2xl hover:bg-white md:p-4 sm:p-0'>
                 <div className='px-6 py-4'>
                     <img className='w-full h-48 object-cover rounded-lg hover:border' src='https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2017/07/minatomiraibon-1280x600.jpg' alt=''></img>
 

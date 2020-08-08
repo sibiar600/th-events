@@ -5,7 +5,7 @@ const EventsList = () => {
     return (
         <>
             <div className='h-auto flex justify-center bg-gray-100'>
-                <div className='w-4/5'>
+                <div className='md:w-4/5 sm:w-full'>
                     {/* title */}
                     <div className='flex md:justify-between sm:justify-center items-center mt-12 flex-wrap'>
                         <h1 className='text-3xl text-teal-500 font-serif leading-none ml-10'>Tokyo Events Calendar</h1>

@@ -16,7 +16,6 @@ const EventsList = () => {
 
     const [events, setEvents] = useState([])
     const [isLoading, setIsLoading] = useState(true)
-    const [term, setTerm] = useState('')
 
     return (
         <>
@@ -24,15 +23,11 @@ const EventsList = () => {
                 <div className='md:w-4/5 sm:w-full'>
                     <Title />
 
-                    <div className='mt-6 grid md:grid-cols-2 xl:grid-cols-3 gap-2 justify-center relative'>
+                    {isLoading ? <h1>Loading...</h1> : <div className='mt-6 grid md:grid-cols-2 xl:grid-cols-3 gap-2 justify-center relative'>
                         {events.map(event => (
                             <Card key={event.id} name={event.name} date={event.startDate} startHour={event.startHour} endHour={event.endHour} price={event.priceInYen} city={event.city} venue={event.venue} description={event.description} image={event.imageURL} />
                         ))}
-
-
-
-                    </div>
-
+                    </div>}
                 </div>
             </div >
 

@@ -3,8 +3,7 @@ import React from 'react'
 const Header = () => {
     return (
         <>
-            <div className='py-6 flex justify-between items-center border-b my-12 med:mx-24  sm:mx-4 bg-gray-100'>
-
+            <div className='flex justify-between items-center mt-12 mb-4 md:mx-24 sm:mx-8 bg-gray-100'>
                 <div>
                     <img src={require('../images/logo.png')} alt="" />
                 </div>
@@ -17,8 +16,8 @@ const Header = () => {
                         <li className='text-gray-500 font-bold hover:shadow-lg'>한국인</li>
                     </ul>
                 </div>
-
             </div>
+            <div className='h-px bg-gray-300 md:mx-24 sm:mx-8'></div>
 
         </>
     )

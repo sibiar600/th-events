@@ -20,7 +20,7 @@ const EventsList = () => {
     return (
         <>
             <div className='h-auto flex justify-center bg-gray-100'>
-                <div className='md:w-4/5 sm:w-full'>
+                <div className='md:w-3/4 sm:w-full'>
                     <Title />
 
                     {isLoading ? <h1 className='text-2xl text-center'>Loading...</h1> : <div className='mt-6 grid md:grid-cols-2 xl:grid-cols-3 gap-2 justify-center relative'>

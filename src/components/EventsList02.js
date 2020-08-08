@@ -30,9 +30,9 @@ const EventsList = () => {
                                     <div className='font-bold text-sm text-gray-800 font-serif text-center'>8 May</div>
                                 </div>
 
-                                <div className='mb-6 mt-6 font-light text-justify text-sm h-32'>Kawasaki’s La Cittadella shopping complex is holding its annual summertime event. This year’s theme is “Night Out”, where guests can join a chilled-out alfresco dining experience.</div>
+                                <div className='mb-6 mt-6 font-light text-justify text-sm md:h-48 sm:h-24'>Kawasaki’s La Cittadella shopping complex is holding its annual summertime event. This year’s theme is “Night Out”, where guests can join a chilled-out alfresco dining experience.</div>
 
-                                <ul className='mt-10'>
+                                <ul className='md:mt-10 sm:mt-0'>
                                     <li className='text-sm'>08:00 - 17:00</li>
                                     <li className='text-sm'><strong>Musashi Mitake Shrine</strong>, Ome</li>
                                     <li className='text-teal-500 font-semibold text-sm'>1000 Yen</li>
@@ -51,7 +51,7 @@ const EventsList = () => {
 
                                 <div className='mb-6 mt-6  font-light text-justify text-sm h-32'>An evening event in which candle-lit lanterns are floated down the Sumida River. Toro nagashi is a tradition in which lanterns lit with candles are set afloat on rivers to guide the spirits of the ancestors back to the other side during the O-bon holiday.</div>
 
-                                <ul className='mt-10'>
+                                <ul className='md:mt-10 sm:mt-0'>
                                     <li className='text-sm'>08:00 - 17:00</li>
                                     <li className='text-sm'><strong>Musashi Mitake Shrine</strong>, Ome</li>
                                     <li className='text-teal-500 font-semibold text-sm'>Free</li>
@@ -68,8 +68,8 @@ const EventsList = () => {
                                     <div className='font-bold text-sm text-gray-800 font-serif text-center'>8 May</div>
                                 </div>
 
-                                <div className='mb-6 mt-6 font-light text-justify text-sm h-32'>Join the yukata-clad masses in the annual bon dance tradition at Rinko Park—in the shade of the skyscrapers on the Yokohama port waterfront. If the dancing tires you out, there’s also a beer garden and beautiful views of the illuminated Yokohama Bay Bridge to keep you occupied.</div>
-                                <ul className='mt-10'>
+                                <div className='mb-6 mt-6 font-light text-justify text-sm md:h-48 sm:h-24'>Join the yukata-clad masses in the annual bon dance tradition at Rinko Park—in the shade of the skyscrapers on the Yokohama port waterfront. If the dancing tires you out, there’s also a beer garden and beautiful views of the illuminated Yokohama Bay Bridge to keep you occupied.</div>
+                                <ul className='md:mt-10 sm:mt-0'>
                                     <li className='text-sm'>08:00 - 17:00</li>
                                     <li className='text-sm'><strong>Musashi Mitake Shrine</strong>, Ome</li>
                                     <li className='text-teal-500 font-semibold text-sm'>1000 Yen</li>
@@ -86,9 +86,9 @@ const EventsList = () => {
                                     <div className='font-bold text-sm text-gray-800 font-serif text-center'>8 May</div>
                                 </div>
 
-                                <div className='mb-6 mt-6 font-light text-justify text-sm h-32'>Kawasaki’s La Cittadella shopping complex is holding its annual summertime event. This year’s theme is “Night Out”, where guests can join a chilled-out alfresco dining experience.</div>
+                                <div className='mb-6 mt-6 font-light text-justify text-sm md:h-48 sm:h-24'>Kawasaki’s La Cittadella shopping complex is holding its annual summertime event. This year’s theme is “Night Out”, where guests can join a chilled-out alfresco dining experience.</div>
 
-                                <ul className='mt-10'>
+                                <ul className='md:mt-10 sm:mt-0'>
                                     <li className='text-sm'>08:00 - 17:00</li>
                                     <li className='text-sm'><strong>Musashi Mitake Shrine</strong>, Ome</li>
                                     <li className='text-teal-500 font-semibold text-sm'>1000 Yen</li>
@@ -107,7 +107,7 @@ const EventsList = () => {
 
                                 <div className='mb-6 mt-6  font-light text-justify text-sm h-32'>An evening event in which candle-lit lanterns are floated down the Sumida River. Toro nagashi is a tradition in which lanterns lit with candles are set afloat on rivers to guide the spirits of the ancestors back to the other side during the O-bon holiday.</div>
 
-                                <ul className='mt-10'>
+                                <ul className='md:mt-10 sm:mt-0'>
                                     <li className='text-sm'>08:00 - 17:00</li>
                                     <li className='text-sm'><strong>Musashi Mitake Shrine</strong>, Ome</li>
                                     <li className='text-teal-500 font-semibold text-sm'>Free</li>
@@ -124,8 +124,8 @@ const EventsList = () => {
                                     <div className='font-bold text-sm text-gray-800 font-serif text-center'>8 May</div>
                                 </div>
 
-                                <div className='mb-6 mt-6 font-light text-justify text-sm h-32'>Join the yukata-clad masses in the annual bon dance tradition at Rinko Park—in the shade of the skyscrapers on the Yokohama port waterfront. If the dancing tires you out, there’s also a beer garden and beautiful views of the illuminated Yokohama Bay Bridge to keep you occupied.</div>
-                                <ul className='mt-10'>
+                                <div className='mb-6 mt-6 font-light text-justify text-sm md:h-48 sm:h-24'>Join the yukata-clad masses in the annual bon dance tradition at Rinko Park—in the shade of the skyscrapers on the Yokohama port waterfront. If the dancing tires you out, there’s also a beer garden and beautiful views of the illuminated Yokohama Bay Bridge to keep you occupied.</div>
+                                <ul className='md:mt-10 sm:mt-0'>
                                     <li className='text-sm'>08:00 - 17:00</li>
                                     <li className='text-sm'><strong>Musashi Mitake Shrine</strong>, Ome</li>
                                     <li className='text-teal-500 font-semibold text-sm'>1000 Yen</li>
@@ -142,9 +142,9 @@ const EventsList = () => {
                                     <div className='font-bold text-sm text-gray-800 font-serif text-center'>8 May</div>
                                 </div>
 
-                                <div className='mb-6 mt-6 font-light text-justify text-sm h-32'>Kawasaki’s La Cittadella shopping complex is holding its annual summertime event. This year’s theme is “Night Out”, where guests can join a chilled-out alfresco dining experience.</div>
+                                <div className='mb-6 mt-6 font-light text-justify text-sm md:h-48 sm:h-24'>Kawasaki’s La Cittadella shopping complex is holding its annual summertime event. This year’s theme is “Night Out”, where guests can join a chilled-out alfresco dining experience.</div>
 
-                                <ul className='mt-10'>
+                                <ul className='md:mt-10 sm:mt-0'>
                                     <li className='text-sm'>08:00 - 17:00</li>
                                     <li className='text-sm'><strong>Musashi Mitake Shrine</strong>, Ome</li>
                                     <li className='text-teal-500 font-semibold text-sm'>1000 Yen</li>
@@ -163,7 +163,7 @@ const EventsList = () => {
 
                                 <div className='mb-6 mt-6  font-light text-justify text-sm h-32'>An evening event in which candle-lit lanterns are floated down the Sumida River. Toro nagashi is a tradition in which lanterns lit with candles are set afloat on rivers to guide the spirits of the ancestors back to the other side during the O-bon holiday.</div>
 
-                                <ul className='mt-10'>
+                                <ul className='md:mt-10 sm:mt-0'>
                                     <li className='text-sm'>08:00 - 17:00</li>
                                     <li className='text-sm'><strong>Musashi Mitake Shrine</strong>, Ome</li>
                                     <li className='text-teal-500 font-semibold text-sm'>Free</li>
@@ -180,8 +180,8 @@ const EventsList = () => {
                                     <div className='font-bold text-sm text-gray-800 font-serif text-center'>8 May</div>
                                 </div>
 
-                                <div className='mb-6 mt-6 font-light text-justify text-sm h-32'>Join the yukata-clad masses in the annual bon dance tradition at Rinko Park—in the shade of the skyscrapers on the Yokohama port waterfront. If the dancing tires you out, there’s also a beer garden and beautiful views of the illuminated Yokohama Bay Bridge to keep you occupied.</div>
-                                <ul className='mt-10'>
+                                <div className='mb-6 mt-6 font-light text-justify text-sm md:h-48 sm:h-24'>Join the yukata-clad masses in the annual bon dance tradition at Rinko Park—in the shade of the skyscrapers on the Yokohama port waterfront. If the dancing tires you out, there’s also a beer garden and beautiful views of the illuminated Yokohama Bay Bridge to keep you occupied.</div>
+                                <ul className='md:mt-10 sm:mt-0'>
                                     <li className='text-sm'>08:00 - 17:00</li>
                                     <li className='text-sm'><strong>Musashi Mitake Shrine</strong>, Ome</li>
                                     <li className='text-teal-500 font-semibold text-sm'>1000 Yen</li>
@@ -198,9 +198,9 @@ const EventsList = () => {
                                     <div className='font-bold text-sm text-gray-800 font-serif text-center'>8 May</div>
                                 </div>
 
-                                <div className='mb-6 mt-6 font-light text-justify text-sm h-32'>Kawasaki’s La Cittadella shopping complex is holding its annual summertime event. This year’s theme is “Night Out”, where guests can join a chilled-out alfresco dining experience.</div>
+                                <div className='mb-6 mt-6 font-light text-justify text-sm md:h-48 sm:h-24'>Kawasaki’s La Cittadella shopping complex is holding its annual summertime event. This year’s theme is “Night Out”, where guests can join a chilled-out alfresco dining experience.</div>
 
-                                <ul className='mt-10'>
+                                <ul className='md:mt-10 sm:mt-0'>
                                     <li className='text-sm'>08:00 - 17:00</li>
                                     <li className='text-sm'><strong>Musashi Mitake Shrine</strong>, Ome</li>
                                     <li className='text-teal-500 font-semibold text-sm'>1000 Yen</li>
@@ -219,7 +219,7 @@ const EventsList = () => {
 
                                 <div className='mb-6 mt-6  font-light text-justify text-sm h-32'>An evening event in which candle-lit lanterns are floated down the Sumida River. Toro nagashi is a tradition in which lanterns lit with candles are set afloat on rivers to guide the spirits of the ancestors back to the other side during the O-bon holiday.</div>
 
-                                <ul className='mt-10'>
+                                <ul className='md:mt-10 sm:mt-0'>
                                     <li className='text-sm'>08:00 - 17:00</li>
                                     <li className='text-sm'><strong>Musashi Mitake Shrine</strong>, Ome</li>
                                     <li className='text-teal-500 font-semibold text-sm'>Free</li>
@@ -236,8 +236,8 @@ const EventsList = () => {
                                     <div className='font-bold text-sm text-gray-800 font-serif text-center'>8 May</div>
                                 </div>
 
-                                <div className='mb-6 mt-6 font-light text-justify text-sm h-32'>Join the yukata-clad masses in the annual bon dance tradition at Rinko Park—in the shade of the skyscrapers on the Yokohama port waterfront. If the dancing tires you out, there’s also a beer garden and beautiful views of the illuminated Yokohama Bay Bridge to keep you occupied.</div>
-                                <ul className='mt-10'>
+                                <div className='mb-6 mt-6 font-light text-justify text-sm md:h-48 sm:h-24'>Join the yukata-clad masses in the annual bon dance tradition at Rinko Park—in the shade of the skyscrapers on the Yokohama port waterfront. If the dancing tires you out, there’s also a beer garden and beautiful views of the illuminated Yokohama Bay Bridge to keep you occupied.</div>
+                                <ul className='md:mt-10 sm:mt-0'>
                                     <li className='text-sm'>08:00 - 17:00</li>
                                     <li className='text-sm'><strong>Musashi Mitake Shrine</strong>, Ome</li>
                                     <li className='text-teal-500 font-semibold text-sm'>1000 Yen</li>

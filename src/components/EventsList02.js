@@ -44,7 +44,7 @@ const EventsList = () => {
                             <div className='px-6 py-4'>
                                 <img className='w-full h-48 object-cover rounded-lg hover:border' src='https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2017/07/kawasaki-la-cittadella-770x513.jpg' alt=''></img>
 
-                                <div className='flex flex-row justify-between mt-4 h-6 h-6'>
+                                <div className='flex flex-row justify-between mt-4 h-6'>
                                     <div className='font-bold text-sm text-gray-800 font-serif'>Asakusa Toro Nagashi</div>
                                     <div className='font-bold text-sm text-gray-800 font-serif text-center'>8 May</div>
                                 </div>

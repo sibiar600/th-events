@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import EventsList from './components/EventsList';
 import EventsList02 from './components/EventsList02';
 import Header from './components/Header';
 

@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
     return (
         <>
-            <div className='py-6 flex justify-between items-center border-b my-12 mx-24 bg-gray-100'>
+            <div className='py-6 flex justify-between items-center border-b my-12 med:mx-24  sm:mx-4 bg-gray-100'>
 
                 <div>
                     <img src={require('../images/logo.png')} alt="" />

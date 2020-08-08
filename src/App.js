@@ -4,8 +4,8 @@ import EventsList02 from './components/EventsList02';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-
 function App() {
+
   return (
     <div>
       <Header />

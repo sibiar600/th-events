@@ -9,17 +9,17 @@ const Card = ({ image, name, date, description, startHour, endHour, venue, city,
                 <div className='px-6 py-4'>
                     <img className='w-full h-48 object-cover rounded-lg' src={image} alt=''></img>
 
-                    <div className='flex flex-row justify-between mt-4 h-6'>
-                        <div className='font-bold text-sm text-gray-800 font-serif'>{name}</div>
+                    <a href='/' className='flex flex-row justify-between mt-4 h-6'>
+                        <div className='font-bold text-sm text-teal-500 font-serif'>{name}</div>
                         <div className='font-bold text-sm text-gray-800 font-serif text-center'>{date}</div>
-                    </div>
+                    </a>
 
                     <div className='mb-6 mt-6 font-light text-justify text-sm md:h-40 sm:h-24'>{description}</div>
 
                     <ul className='md:mt-10 sm:mt-0'>
                         <li className='text-sm'>{startHour}-{endHour}</li>
                         <li className='text-sm'><strong>{venue}</strong>, {city}</li>
-                        <li className='text-teal-500 font-semibold text-sm'>{price}</li>
+                        <li className='font-semibold text-sm'>{price}</li>
                     </ul>
                 </div>
             </div>

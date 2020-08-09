@@ -5,7 +5,7 @@ const Header = () => {
         <>
             <div className='flex justify-between items-center mt-12 mb-4 md:mx-24 sm:mx-8 bg-gray-100'>
                 <div>
-                    <img src={require('../images/logo.png')} alt="" />
+                    <input className='focus:outline-none' type='image' href='/' src={require('../images/logo.png')} alt="" />
                 </div>
 
                 <div >

@@ -4,7 +4,7 @@ const Jumbotron = () => {
     return (
         <>
             <div className='w-screen mx-auto'>
-                <img src="https://source.unsplash.com/wfwUpfVqrKU/1600x900" alt="" />
+                <img src="https://source.unsplash.com/IocJwyqRv3M/1600x900" alt="" />
             </div>
 
         </>

@@ -10,10 +10,10 @@ const Header = () => {
 
                 <div >
                     <ul className='flex flex-row text-xs'>
-                        <li className='text-teal-500 font-bold mr-3 hover:shadow-lg'>EN</li>
-                        <li className='text-gray-500 font-bold mr-3 hover:shadow-lg'>日本人</li>
-                        <li className='text-gray-500 font-bold mr-3 hover:shadow-lg'>中文</li>
-                        <li className='text-gray-500 font-bold hover:shadow-lg'>한국인</li>
+                        <li ><a className='text-teal-500 font-bold mr-3 ' href='/'>EN</a></li>
+                        <li ><a className='text-gray-500 font-bold mr-3 hover:text-teal-500' href='/'>日本人</a></li>
+                        <li ><a className='text-gray-500 font-bold mr-3 hover:text-teal-500' href='/'>中文</a></li>
+                        <li ><a className='text-gray-500 font-bold hover:text-teal-500' href='/'>한국인</a></li>
                     </ul>
                 </div>
             </div>

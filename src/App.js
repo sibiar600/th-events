@@ -4,17 +4,19 @@ import EventsList from './components/EventsList';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import NeighorhoodList from './components/NeighborhoodList';
+import Jumbotron from './components/Jumbotron';
 
 function App() {
 
   return (
-    <div>
+    <>
+      <Jumbotron />
       <Header />
       <NeighorhoodList />
       <EventsList />
       <Footer />
 
-    </div >
+    </ >
   );
 }
 

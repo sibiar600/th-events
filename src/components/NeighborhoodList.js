@@ -42,7 +42,7 @@ const EventsList = () => {
 
                         <div className='card bg-black rounded-lg hover:rounded-lg hover:shadow-2xl'>
                             <div>
-                                <div href='/' className='absolute text-white font-bold z-10 pl-2 pt-1'>Mitaka</div>
+                                <a href='/' className='absolute text-white font-bold z-10 pl-2 pt-1'>Mitaka</a>
                                 <img className='w-full h-24 object-cover rounded-lg transition duration-200 ease-in-out transform hover:scale-105 hover:opacity-100 opacity-75' src='https://source.unsplash.com/c8ioq1LH_mI' alt=''></img>
                             </div>
                         </div>

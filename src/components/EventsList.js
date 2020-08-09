@@ -10,7 +10,8 @@ const EventsList = () => {
     const [term, setTerm] = useState('')
 
     useEffect(() => {
-        fetch(`https://cors-anywhere.herokuapp.com/th-eventsapi.herokuapp.com/events`)
+        // fetch(`https://cors-anywhere.herokuapp.com/th-eventsapi.herokuapp.com/events`)
+        fetch(`https://spreadsheets.google.com/feeds/cells/1M8DCqwbIZS44P_y6LJZUd1clRkWVNp5Kl86HD826QCU/1/public/full?alt=json`)
             .then(res => res.json())
             .then(data => {
                 setEvents(data)

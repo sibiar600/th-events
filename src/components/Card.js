@@ -7,7 +7,7 @@ const Card = ({ image, name, date, description, startHour, endHour, venue, city,
         <div>
             <div className='card mb-4 bg-gray-100 rounded-lg hover:rounded-lg hover:shadow-2xl hover:bg-white md:p-4 sm:p-0'>
                 <div className='px-6 py-4'>
-                    <img className='w-full h-48 object-cover rounded-lg hover:border' src={image} alt=''></img>
+                    <img className='w-full h-48 object-cover rounded-lg' src={image} alt=''></img>
 
                     <div className='flex flex-row justify-between mt-4 h-6'>
                         <div className='font-bold text-sm text-gray-800 font-serif'>{name}</div>

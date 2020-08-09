@@ -10,7 +10,7 @@ const EventsList = () => {
                     <div className='flex md:justify-between mt-24 flex-wrap'>
                         <Title title={'Neighborhoods'} />
                     </div>
-                    <div className='mt-6 grid md:grid-cols-2 xl:grid-cols-3 gap-2 justify-center relative mx-10'>
+                    <div className='mt-12 grid md:grid-cols-2 xl:grid-cols-3 gap-2 justify-center relative mx-10'>
 
                         <div className='relative card bg-black rounded-lg hover:rounded-lg  hover:shadow-2xl'>
                             <div>

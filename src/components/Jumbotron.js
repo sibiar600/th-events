@@ -3,8 +3,8 @@ import React from 'react'
 const Jumbotron = () => {
     return (
         <>
-            <div className='w-screen mx-0'>
-                <img src="https://cors-anywhere.herokuapp.com/source.unsplash.com/1600x900/?tokyo" alt="" />
+            <div className='w-screen mx-auto'>
+                <img src="https://source.unsplash.com/wfwUpfVqrKU/1600x900" alt="" />
             </div>
 
         </>

@@ -4,7 +4,7 @@ import React from 'react'
 
 const Card = ({ image, name, date, description, startHour, endHour, venue, city, price }) => {
     return (
-        <div>
+        <>
             <div className='card mb-4 bg-gray-100 rounded-lg hover:rounded-lg hover:shadow-2xl hover:bg-white md:p-4 sm:p-0'>
                 <div className='px-6 py-4'>
                     <img className='w-full h-48 object-cover rounded-lg' src={image} alt=''></img>
@@ -18,12 +18,12 @@ const Card = ({ image, name, date, description, startHour, endHour, venue, city,
 
                     <ul className='md:mt-10 sm:mt-0'>
                         <li className='text-sm'>{startHour}-{endHour}</li>
-                        <li className='text-sm'><strong>{venue}</strong>, {city}</li>
+                        <li><a className='text-sm text-teal-500 font-bold' href='/'>{venue}</a>, <a className='text-sm' href='/'>{city}</a></li>
                         <li className='font-semibold text-sm'>{price}</li>
                     </ul>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 

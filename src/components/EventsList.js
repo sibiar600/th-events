@@ -32,7 +32,7 @@ const EventsList = () => {
 
                     {isLoading ? <h1 className='text-2xl text-center'>Loading...</h1> : <div className='mt-6 grid md:grid-cols-2 xl:grid-cols-3 gap-2 justify-center relative'>
                         {events.map(event => (
-                            <Card key={event.id} name={event.name} date={event.month} time={event.time} price={event.price} city={event.city} venue={event.status} description={event.description} image={event.imageURL} />
+                            <Card key={event.id} name={event.name} date={event.date} time={event.time} price={event.price} city={event.city} venue={event.status} description={event.description} image={event.imageURL} />
                         ))}
                     </div>}
                 </div>

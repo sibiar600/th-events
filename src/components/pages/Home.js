@@ -3,6 +3,7 @@ import NeighborhoodCard from '../molecules/NeighborhoodCard'
 import H1 from '../atoms/H1'
 import LocalCard from '../molecules/LocalCard'
 import StoryCard from '../molecules/StoryCard'
+import LineSeperator from '../atoms/LineSeperator'
 
 const Home = () => {
     return (

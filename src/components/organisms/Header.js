@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../../images/logo.png'
+import LineSeperator from '../atoms/LineSeperator'
 
 const Header = () => {
     return (
@@ -40,7 +41,7 @@ const Header = () => {
                     </ul>
                 </div>
             </div>
-            <div className='h-px bg-gray-300 md:mx-24 sm:mx-8'></div>
+            <LineSeperator />
 
         </>
     )

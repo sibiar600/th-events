@@ -7,7 +7,7 @@ const LocalList = (props) => {
         <>
             <div className='w-1/2 mx-auto m-12'>
                 <H1 h1={'Locals'} />
-                <div className='mt-6 grid md:grid-cols-2 xl:grid-cols-3 gap-2 relative'>
+                <div className='mt-6 grid md:grid-cols-2 xl:grid-cols-4 gap-2 relative'>
                     <LocalCard imagetall={'https://source.unsplash.com/wJ-yzQDAMXs/900x1600'} h3='Yuru,36' subtitle='Student' />
                     <LocalCard imagetall={'https://source.unsplash.com/nF8YIvklCKk/900x1600'} h3='Nozomi, 42' subtitle='Accountant' />
                     <LocalCard imagetall={'https://source.unsplash.com/ySQbhCdm6YE/900x1600'} h3='Yu, 32' subtitle='Travel Blogger' />
@@ -17,6 +17,9 @@ const LocalList = (props) => {
                     <LocalCard imagetall={'https://source.unsplash.com/0Q0e2tEO8W8/900x1600'} h3='Yuki,36' subtitle='React Programmer' />
                     <LocalCard imagetall={'https://source.unsplash.com/rWJpKloM-Ew/900x1600'} h3='Shi, 42' subtitle='Nodejs Expert' />
                     <LocalCard imagetall={'https://source.unsplash.com/BDEgoMaNtZQ/900x1600'} h3='Janet, 32' subtitle='Mongodb Pro' />
+                    <LocalCard imagetall={'https://source.unsplash.com/wJ-yzQDAMXs/900x1600'} h3='Yuru,36' subtitle='Student' />
+                    <LocalCard imagetall={'https://source.unsplash.com/nF8YIvklCKk/900x1600'} h3='Nozomi, 42' subtitle='Accountant' />
+                    <LocalCard imagetall={'https://source.unsplash.com/ySQbhCdm6YE/900x1600'} h3='Yu, 32' subtitle='Travel Blogger' />
                 </div>
             </div>
 

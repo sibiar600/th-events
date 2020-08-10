@@ -9,14 +9,14 @@ import Jumbotron from './components/Jumbotron';
 function App() {
 
   return (
-    <>
+    <body className='bg-gray-100'>
       <Jumbotron />
       <Header />
       <NeighorhoodList />
       <EventsList />
       <Footer />
 
-    </ >
+    </body >
   );
 }
 

@@ -6,7 +6,7 @@ import Subtitle from '../atoms/Subtitle'
 const LocalCard = ({ imagetall, h3, subtitle }) => {
     return (
         <>
-            <div className='flex flex-col justify-center items-center py-2'>
+            <div className='flex flex-col justify-center py-2'>
                 <div className='pb-2'>
                     <ImageTall imagetall={imagetall} />
                 </div>

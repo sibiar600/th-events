@@ -4,7 +4,7 @@ const Jumbotron = () => {
     return (
         <>
             <div className='object-center'>
-                <img src="https://source.unsplash.com/IocJwyqRv3M/1920x700" alt="" />
+                <img src="https://source.unsplash.com/1920x700/?tokyo" alt="" />
             </div>
 
         </>

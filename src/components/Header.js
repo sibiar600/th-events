@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -6,6 +7,26 @@ const Header = () => {
             <div className='flex justify-between items-center mt-12 mb-4 md:mx-24 sm:mx-8 bg-gray-100'>
                 <div>
                     <input className='focus:outline-none' type='image' href='/' src={require('../images/logo.png')} alt="" />
+                </div>
+
+                <div className='w-1/2'>
+                    <ul className='flex justify-around'>
+                        <li>
+                            <Link to='/' className='text-teal-500'>Home</Link>
+                        </li>
+                        <li>
+                            <Link to='/stories' className='text-teal-500'>Stories</Link>
+                        </li>
+                        <li>
+                            <Link to='/event' className='text-teal-500'>Event</Link>
+                        </li>
+                        <li>
+                            <Link to='/hoods' className='text-teal-500'>Neighborhoods</Link>
+                        </li>
+                        <li>
+                            <Link to='/locals' className='text-teal-500'>Locals</Link>
+                        </li>
+                    </ul>
                 </div>
 
                 <div >

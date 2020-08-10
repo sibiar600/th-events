@@ -10,7 +10,7 @@ const StoryCard = ({ storytag, h3, imagesquare }) => {
                 <div className='card rounded-lg '>
 
                     <div className='flex flex-col justify-center'>
-                        <div className='hover:shadow-2xl'>
+                        <div>
                             <ImageSquare imagesquare={imagesquare} />
                         </div>
 
@@ -18,7 +18,7 @@ const StoryCard = ({ storytag, h3, imagesquare }) => {
                             <div className='pt-2'>
                                 <StoryTag storytag={storytag} />
                             </div>
-                            <div>
+                            <div className='pb-6'>
                                 <H3 h3={h3} />
                             </div>
                         </div>

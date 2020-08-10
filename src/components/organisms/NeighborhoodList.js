@@ -1,121 +1,33 @@
 import React from 'react'
-import Title from '../atoms/Title'
+import H1 from '../atoms/H1'
+import NeighborhoodCard from '../molecules/NeighborhoodCard'
 
-const EventsList = () => {
+const EventsList = (props) => {
 
     return (
         <>
             <div className='h-auto flex justify-center bg-gray-100'>
                 <div className='md:w-3/4 sm:w-full'>
                     <div className='flex md:justify-between mt-24 flex-wrap'>
-                        <Title title={'Neighborhoods'} />
+                        <H1 h1={'Neighborhoods'} />
                     </div>
+
                     <div className='mt-12 grid md:grid-cols-2 xl:grid-cols-3 gap-2 justify-center relative mx-10'>
-
-                        <div className='relative card bg-black rounded-lg hover:rounded-lg  hover:shadow-2xl'>
-                            <div>
-                                <a href='/' className='absolute text-white font-bold z-10 pl-2 pt-1'>Kichijoji</a>
-                                <img className='w-full h-24 object-cover rounded-lg transition duration-200 ease-in-out transform hover:scale-105 hover:opacity-100 opacity-75' src='https://source.unsplash.com/layMbSJ3YOE' alt=''></img>
-                            </div>
-                        </div>
-
-                        <div className='card bg-black rounded-lg hover:rounded-lg hover:shadow-2xl'>
-                            <div>
-                                <a href='/' className='absolute text-white font-bold z-10 pl-2 pt-1'>Nakano</a>
-                                <img className='w-full h-24 object-cover rounded-lg transition duration-200 ease-in-out transform hover:scale-105 hover:opacity-100 opacity-75' src='https://source.unsplash.com/hwLAI5lRhdM' alt=''></img>
-                            </div>
-                        </div>
-
-                        <div className='card bg-black rounded-lg hover:rounded-lg hover:shadow-2xl'>
-                            <div>
-                                <a href='/' className='absolute text-white font-bold z-10 pl-2 pt-1'>Shin-Ogikubo</a>
-                                <img className='w-full h-24 object-cover rounded-lg transition duration-200 ease-in-out transform hover:scale-105 hover:opacity-100 opacity-75' src='https://source.unsplash.com/02kTeRPbndQ' alt=''></img>
-                            </div>
-                        </div>
-
-                        <div className='card bg-black rounded-lg hover:rounded-lg hover:shadow-2xl'>
-                            <div>
-                                <a href='/' className='absolute text-white font-bold z-10 pl-2 pt-1'>Nishi-Ogikubo</a>
-                                <img className='w-full h-24 object-cover rounded-lg transition duration-200 ease-in-out transform hover:scale-105 hover:opacity-100 opacity-75' src='https://source.unsplash.com/khQY5Eu-aa0' alt=''></img>
-                            </div>
-                        </div>
-
-                        <div className='card bg-black rounded-lg hover:rounded-lg hover:shadow-2xl'>
-                            <div>
-                                <a href='/' className='absolute text-white font-bold z-10 pl-2 pt-1'>Mitaka</a>
-                                <img className='w-full h-24 object-cover rounded-lg transition duration-200 ease-in-out transform hover:scale-105 hover:opacity-100 opacity-75' src='https://source.unsplash.com/c8ioq1LH_mI' alt=''></img>
-                            </div>
-                        </div>
-
-                        <div className='card bg-black rounded-lg hover:rounded-lg hover:shadow-2xl'>
-                            <div>
-                                <a href='/' className='absolute text-white font-bold z-10 pl-2 pt-1'>Asagaya</a>
-                                <img className='w-full h-24 object-cover rounded-lg transition duration-200 ease-in-out transform hover:scale-105 hover:opacity-100 opacity-75' src='https://source.unsplash.com/WyuxUIyEP4A' alt=''></img>
-                            </div>
-                        </div>
-
-                        <div className='card bg-black rounded-lg hover:rounded-lg hover:shadow-2xl'>
-                            <div>
-                                <a href='/' className='absolute text-white font-bold z-10 pl-2 pt-1'>Koenji</a>
-                                <img className='w-full h-24 object-cover rounded-lg transition duration-200 ease-in-out transform hover:scale-105 hover:opacity-100 opacity-75' src='https://source.unsplash.com/GsSHHOA0RLY' alt=''></img>
-                            </div>
-                        </div>
-
-                        <div className='card bg-black rounded-lg hover:rounded-lg hover:shadow-2xl'>
-                            <div>
-                                <a href='/' className='absolute text-white font-bold z-10 pl-2 pt-1'>Shimokitazawa</a>
-                                <img className='w-full h-24 object-cover rounded-lg transition duration-200 ease-in-out transform hover:scale-105 hover:opacity-100 opacity-75' src='https://source.unsplash.com/3wciQ0Mg59Y' alt=''></img>
-                            </div>
-                        </div>
-
-                        <div className='card bg-black rounded-lg hover:rounded-lg hover:shadow-2xl'>
-                            <div>
-                                <a href='/' className='absolute text-white font-bold z-10 pl-2 pt-1'>Musashino</a>
-                                <img className='w-full h-24 object-cover rounded-lg transition duration-200 ease-in-out transform hover:scale-105 hover:opacity-100 opacity-75' src='https://source.unsplash.com/CsMNgdHXzFs' alt=''></img>
-                            </div>
-                        </div>
-
-                        <div className='card bg-black rounded-lg hover:rounded-lg hover:shadow-2xl'>
-                            <div>
-                                <a href='/' className='absolute text-white font-bold z-10 pl-2 pt-1'>Shinjuku</a>
-                                <img className='w-full h-24 object-cover rounded-lg transition duration-200 ease-in-out transform hover:scale-105 hover:opacity-100 opacity-75' src='https://source.unsplash.com/k2cmXS5ktp4' alt=''></img>
-                            </div>
-                        </div>
-
-                        <div className='card bg-black rounded-lg hover:rounded-lg hover:shadow-2xl'>
-                            <div>
-                                <a href='/' className='absolute text-white font-bold z-10 pl-2 pt-1'>Nakameguro</a>
-                                <img className='w-full h-24 object-cover rounded-lg transition duration-200 ease-in-out transform hover:scale-105 hover:opacity-100 opacity-75' src='https://source.unsplash.com/5MerlCpd0aM' alt=''></img>
-                            </div>
-                        </div>
-
-                        <div className='card bg-black rounded-lg hover:rounded-lg hover:shadow-2xl'>
-                            <div>
-                                <a href='/' className='absolute text-white font-bold z-10 pl-2 pt-1'>Asakusa</a>
-                                <img className='w-full h-24 object-cover rounded-lg transition duration-200 ease-in-out transform hover:scale-105 hover:opacity-100 opacity-75' src='https://source.unsplash.com/DpPutJwgyW8' alt=''></img>
-                            </div>
-                        </div>
-
-                        <div className='card bg-black rounded-lg hover:rounded-lg hover:shadow-2xl'>
-                            <div>
-                                <a href='/' className='absolute text-white font-bold z-10 pl-2 pt-1'>Yoyogi</a>
-                                <img className='w-full h-24 object-cover rounded-lg transition duration-200 ease-in-out transform hover:scale-105 hover:opacity-100 opacity-75' src='https://source.unsplash.com/3wciQ0Mg59Y' alt=''></img>
-                            </div>
-                        </div>
-
-                        <div className='card bg-black rounded-lg hover:rounded-lg hover:shadow-2xl'>
-                            <div>
-                                <a href='/' className='absolute text-white font-bold z-10 pl-2 pt-1'>Sasazuka</a>
-                                <img className='w-full h-24 object-cover rounded-lg transition duration-200 ease-in-out transform hover:scale-105 hover:opacity-100 opacity-75' src='https://source.unsplash.com/CsMNgdHXzFs' alt=''></img>
-                            </div>
-                        </div>
-
-                        <div className='card bg-black rounded-lg hover:rounded-lg hover:shadow-2xl'>
-                            <div>
-                                <a href='/' className='absolute text-white font-bold z-10 pl-2 pt-1'>Hatagaya</a>
-                                <img className='w-full h-24 object-cover rounded-lg transition duration-200 ease-in-out transform hover:scale-105 hover:opacity-100 opacity-75' src='https://source.unsplash.com/k2cmXS5ktp4' alt=''></img>
-                            </div>
-                        </div>
+                        <NeighborhoodCard whitetitle={'Kichijoji'} imagewide={'https://source.unsplash.com/layMbSJ3YOE'} />
+                        <NeighborhoodCard whitetitle={'Nakano'} imagewide={'https://source.unsplash.com/hwLAI5lRhdM'} />
+                        <NeighborhoodCard whitetitle={'Shin-Ogikubo'} imagewide={'https://source.unsplash.com/02kTeRPbndQ'} />
+                        <NeighborhoodCard whitetitle={'Nishi-Ogikubo'} imagewide={'https://source.unsplash.com/khQY5Eu-aa0'} />
+                        <NeighborhoodCard whitetitle={'Mitaka'} imagewide={'https://source.unsplash.com/c8ioq1LH_mI'} />
+                        <NeighborhoodCard whitetitle={'Asagaya'} imagewide={'https://source.unsplash.com/WyuxUIyEP4A'} />
+                        <NeighborhoodCard whitetitle={'Koenji'} imagewide={'https://source.unsplash.com/GsSHHOA0RLY'} />
+                        <NeighborhoodCard whitetitle={'Shimokitazawa'} imagewide={'https://source.unsplash.com/3wciQ0Mg59Y'} />
+                        <NeighborhoodCard whitetitle={'Musashino'} imagewide={'https://source.unsplash.com/CsMNgdHXzFs'} />
+                        <NeighborhoodCard whitetitle={'Shinjuku'} imagewide={'https://source.unsplash.com/k2cmXS5ktp4'} />
+                        <NeighborhoodCard whitetitle={'Nakameguro'} imagewide={'https://source.unsplash.com/5MerlCpd0aM'} />
+                        <NeighborhoodCard whitetitle={'Asakusa'} imagewide={'https://source.unsplash.com/DpPutJwgyW8'} />
+                        <NeighborhoodCard whitetitle={'Yoyogi'} imagewide={'https://source.unsplash.com/3wciQ0Mg59Y'} />
+                        <NeighborhoodCard whitetitle={'Sasazuka'} imagewide={'https://source.unsplash.com/CsMNgdHXzFs'} />
+                        <NeighborhoodCard whitetitle={'Hatagaya'} imagewide={'https://source.unsplash.com/k2cmXS5ktp4'} />
 
                     </div>
                 </div>

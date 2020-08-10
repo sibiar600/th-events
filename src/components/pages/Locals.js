@@ -1,11 +1,11 @@
 import React from 'react'
-import { ImageGrid } from '../molecules/ImageGrid'
+import LocalList from '../organisms/LocalList'
 
 
 const Locals = () => {
     return (
         <>
-            <ImageGrid />
+            <LocalList />
         </>
     )
 }

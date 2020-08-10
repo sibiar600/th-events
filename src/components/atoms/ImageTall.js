@@ -1,12 +1,10 @@
 import React from 'react'
-import Title from './Title'
 
-const ImageTall = ({ imageURL, title }) => {
+const ImageTall = ({ image }) => {
     return (
         <>
             <div>
-                <img className='w-48 h-64 object-cover rounded-lg' src={imageURL} alt="" />
-                <Title title={title} />
+                <img className='w-48 h-2xl object-cover rounded-lg transform transition hover:scale-110 hover:shadow-xl' src={image} alt="" />
             </div>
 
         </>

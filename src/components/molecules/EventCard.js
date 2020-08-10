@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-const Card = ({ image, name, date, description, time, venue, city, price }) => {
+const EventCard = ({ image, name, date, description, time, venue, city, price }) => {
     return (
         <>
             <div className='card mb-4 bg-gray-100 rounded-lg hover:rounded-lg hover:shadow-2xl hover:bg-white md:p-4 sm:p-0'>
@@ -27,4 +27,4 @@ const Card = ({ image, name, date, description, time, venue, city, price }) => {
     )
 }
 
-export default Card
+export default EventCard

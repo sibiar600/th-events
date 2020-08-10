@@ -6,9 +6,9 @@ import H3 from '../atoms/H3'
 const StoryCard = ({ storytag, h3, imagesquare }) => {
     return (
         <>
-            <div>
-                <div className='card rounded-lg hover:rounded-lg hover:shadow-2xl hover:bg-white md:p-4 sm:p-2'>
-                    <div className='px-2 py-2'>
+            <div className='flex justify-center'>
+                <div className='card rounded-lg hover:rounded-lg hover:shadow-2xl hover:bg-white'>
+                    <div className='flex flex-wrap justify-center'>
                         <ImageSquare imagesquare={imagesquare} />
 
                         <a href='/' className='flex flex-col mt-2'>

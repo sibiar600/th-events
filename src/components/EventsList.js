@@ -25,7 +25,7 @@ const EventsList = () => {
                 <div className='md:w-3/4 sm:w-full'>
                     <div className='flex md:justify-between mt-24 flex-wrap'>
                         <Title title={'TokyoHoods Events'} />
-                        <Search searchText={(text) => setTerm(text)} />
+                        <Search />
                     </div>
 
 

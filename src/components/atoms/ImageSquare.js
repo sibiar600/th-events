@@ -4,7 +4,7 @@ const ImageSquare = ({ imagesquare }) => {
     return (
         <>
             <div>
-                <img className='w-auto h-64 object-cover rounded-lg' src={imagesquare} alt="" />
+                <img className='w-full h-64 object-cover rounded-lg' src={imagesquare} alt="" />
             </div>
         </>
     )

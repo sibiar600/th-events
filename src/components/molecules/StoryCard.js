@@ -8,18 +8,24 @@ const StoryCard = ({ storytag, h3, imagesquare }) => {
         <>
             <div className='flex justify-center'>
                 <div className='card rounded-lg hover:rounded-lg hover:shadow-2xl hover:bg-white'>
-                    <div className='flex flex-wrap justify-center'>
-                        <ImageSquare imagesquare={imagesquare} />
 
-                        <a href='/' className='flex flex-col mt-2'>
-                            <>
+                    <div className='flex flex-col justify-center'>
+                        <div>
+                            <ImageSquare imagesquare={imagesquare} />
+                        </div>
+
+                        <div className='flex flex-col'>
+                            <div className='pt-2'>
                                 <StoryTag storytag={storytag} />
-                            </>
-                            <>
+                            </div>
+                            <div>
                                 <H3 h3={h3} />
-                            </>
-                        </a>
+                            </div>
+                        </div>
+
+
                     </div>
+
                 </div>
             </div>
 

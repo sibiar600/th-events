@@ -10,7 +10,7 @@ const Home = () => {
             <div className='md:w-3/4 sm:w-full mx-auto'>
                 <div className='mt-12 p-6'>
                     <H1 h1={'Stories'} />
-                    <div className='mt-12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2'>
+                    <div className='mt-12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
                         <StoryCard imagesquare={'https://img.theculturetrip.com/450x300/wp-content/uploads/2020/04/pnkwgh.jpg'} storytag={'Film & TV'} h3={'Tokyo: Lost in Translation'} />
                         <StoryCard imagesquare={'https://img.theculturetrip.com/450x300/wp-content/uploads/2018/10/516-nagakin-capsule-tower-jp.jpg'} storytag={'architecture'} h3={'Tokyo`s Brutalist Architecture'} />
                         <StoryCard imagesquare={'https://img.theculturetrip.com/450x300/wp-content/uploads/2019/07/sctp0142-cherry-blossom-tokyo-japan-chidorigafuchi-quiapo00021-2.jpg'} storytag={'see & do'} h3={'Most Instagrammable Spots in Tokyo'} />

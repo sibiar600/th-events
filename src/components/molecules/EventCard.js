@@ -6,7 +6,7 @@ const EventCard = ({ imagerectangle, name, date, description, time, venue, city,
     return (
         <>
             <div className='card mb-4 bg-gray-100 rounded-lg hover:rounded-lg hover:shadow-2xl hover:bg-white md:p-4 sm:p-0'>
-                <div className='px-6 py-4'>
+                <div className='px-2 py-2'>
                     <ImageRectangle imagerectangle={imagerectangle} />
 
                     <a href='/' className='flex flex-row justify-between mt-4 h-6'>

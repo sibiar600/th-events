@@ -12,6 +12,7 @@ import Home from './components/pages/Home';
 import Events from './components/pages/Events';
 import Locals from './components/pages/Locals';
 import Neighborhoods from './components/pages/Neighborhoods';
+import Stories from './components/pages/Stories';
 
 function App() {
 
@@ -27,7 +28,7 @@ function App() {
             <Home />
           </Route>
           <Route path='/stories'>
-            <h2>This is stories page</h2>
+            <Stories />
           </Route>
           <Route path='/event'>
             <Events />

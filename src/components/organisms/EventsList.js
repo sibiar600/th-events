@@ -25,7 +25,7 @@ const EventsList = (props) => {
             <div className='md:w-3/4 sm:w-full mx-auto m-12'>
                 <div className='flex md:justify-between mt-24 flex-wrap'>
                     <H1 h1={'Tokyo Events'} />
-                    <div className='flex mx-2'>
+                    <div className='flex gap-2'>
                         <Button button={'Free'} />
                         <Search />
                     </div>

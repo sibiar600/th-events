@@ -7,7 +7,6 @@ const EventsList = () => {
 
     const [events, setEvents] = useState([])
     const [isLoading, setIsLoading] = useState(true)
-    const [term, setTerm] = useState('')
 
     useEffect(() => {
         fetch(`https://cors-anywhere.herokuapp.com/th-eventsapi.herokuapp.com/events`)
@@ -17,7 +16,7 @@ const EventsList = () => {
                 setIsLoading(false)
             })
             .catch(err => console.log(err))
-    }, [term])
+    }, [])
 
 
     return (

@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Header from './components/organisms/Header';
 import Footer from './components/organisms/Footer';
-import NeighorhoodList from './components/organisms/NeighborhoodList';
 import Jumbotron from './components/atoms/Jumbotron';
 import {
   BrowserRouter as Router,
@@ -12,6 +11,7 @@ import {
 import Home from './components/pages/Home';
 import Events from './components/pages/Events';
 import Locals from './components/pages/Locals';
+import Neighborhoods from './components/pages/Neighborhoods';
 
 function App() {
 
@@ -33,7 +33,7 @@ function App() {
             <Events />
           </Route>
           <Route path='/hoods'>
-            <NeighorhoodList />
+            <Neighborhoods />
           </Route>
           <Route path='/locals'>
             <Locals />

@@ -10,7 +10,7 @@ const EventsList = ({ h1, h2, imagewide, whitetitle }) => {
 
                 <H2 h2={h2} />
 
-                <div className='mt-12 grid md:grid-cols-2 xl:grid-cols-3 gap-2 justify-center relative mx-10'>
+                <div className='mt-6 grid md:grid-cols-2 xl:grid-cols-3 gap-2 justify-center'>
                     <NeighborhoodCard whitetitle={'Kichijoji'} imagewide={'https://source.unsplash.com/layMbSJ3YOE'} />
                     <NeighborhoodCard whitetitle={'Nakano'} imagewide={'https://source.unsplash.com/hwLAI5lRhdM'} />
                     <NeighborhoodCard whitetitle={'Shin-Ogikubo'} imagewide={'https://source.unsplash.com/02kTeRPbndQ'} />

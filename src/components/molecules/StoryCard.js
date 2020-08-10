@@ -7,10 +7,10 @@ const StoryCard = ({ storytag, h3, imagesquare }) => {
     return (
         <>
             <div className='flex justify-center'>
-                <div className='card rounded-lg hover:rounded-lg hover:shadow-2xl hover:bg-white'>
+                <div className='card rounded-lg '>
 
                     <div className='flex flex-col justify-center'>
-                        <div>
+                        <div className='hover:shadow-2xl'>
                             <ImageSquare imagesquare={imagesquare} />
                         </div>
 

@@ -1,16 +1,17 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import NeighorhoodList from './components/NeighborhoodList';
-import Jumbotron from './components/Jumbotron';
+import Header from './components/organisms/Header';
+import Footer from './components/organisms/Footer';
+import NeighorhoodList from './components/organisms/NeighborhoodList';
+import Jumbotron from './components/atoms/Jumbotron';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from 'react-router-dom'
-import Home from './pages/Home';
-import Events from './pages/Events';
+import Home from './components/pages/Home';
+import Events from './components/pages/Events';
+import Locals from './components/pages/Locals';
 
 function App() {
 
@@ -35,7 +36,7 @@ function App() {
             <NeighorhoodList />
           </Route>
           <Route path='/locals'>
-            <h2>Locals only...just kidding</h2>
+            <Locals />
           </Route>
         </Switch>
 

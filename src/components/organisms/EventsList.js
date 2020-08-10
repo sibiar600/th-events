@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import Card from './Card'
-import Title from './Title'
-import Search from './Search'
+import Card from '../molecules/Card'
+import Title from '../atoms/Title'
+import Search from '../atoms/Search'
 
 const EventsList = () => {
 

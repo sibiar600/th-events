@@ -1,12 +1,10 @@
 import React from 'react'
-import EventsList from '../components/EventsList'
-import NeighborhoodList from '../components/NeighborhoodList'
+import EventsList from '../organisms/EventsList'
 
 const Events = () => {
     return (
         <div>
             <EventsList />
-            <NeighborhoodList />
         </div>
     )
 }

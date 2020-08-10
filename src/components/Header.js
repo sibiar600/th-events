@@ -1,16 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../images/logo.png'
 
 const Header = () => {
     return (
         <>
             <div className='flex justify-between items-center mt-12 mb-4 md:mx-24 sm:mx-8 bg-gray-100'>
                 <div>
-                    <input className='focus:outline-none' type='image' href='/' src={require('../images/logo.png')} alt="" />
+                    <Link to='/'><img className='focus:outline-none' type='image' src={logo} alt="" /></Link>
+
                 </div>
 
                 <div className='w-1/2'>
-                    <ul className='flex justify-around'>
+                    <ul className='flex flex-start flex-wrap justify-around'>
                         <li>
                             <Link to='/' className='text-teal-500'>Home</Link>
                         </li>
